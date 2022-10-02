@@ -1,0 +1,72 @@
+@charset "UTF-8";
+body {
+  font-family: serif;
+}
+/*header*/
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+/**/
+
+/*ナビ*/
+.main-nav {
+  display: flex;
+  margin: 3rem 10rem ;
+}
+.main-nav a {
+  text-decoration: none;
+  color: black;
+}
+.main-nav li {
+  padding: 5%;
+}
+.logo {
+  height: 50px;
+  margin: 50px 100px;
+}
+
+/*main*/
+
+.center-img {
+  width:100vw;
+}
+.top-text p {
+  margin: 30px 100px;
+  padding: px;
+  line-height: 2;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10% 5%;
+
+}
+
+.grid-item  {
+  width:48%;
+  margin: 0 0 2% 2%;
+  line-height: 1.5;
+}
+
+.grid-img1{
+  width: 48%;
+  margin-right: 2%;
+  margin-top:2%;
+}
+.grid-img2{
+  width: 48%;
+  margin-top:2%;
+}
+.logo1{
+  text-align: center;
+}
+
+/*footer*/
+
+.footer {
+  text-align:center;
+  margin: 10% 0 2%;
+  opacity: 0.5;
+}
